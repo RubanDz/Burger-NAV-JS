@@ -58,6 +58,9 @@
    transform: translateX(-100%);
    transition: transform 0.5s;
 }
+.menu-burger__img_size {
+   width: 40px;
+}
 /* Добавим .activ для JS, клас нужен для возврата меню в видимую область
 благодаря свойству translateX(0)  */
 .menu-burger.active {
